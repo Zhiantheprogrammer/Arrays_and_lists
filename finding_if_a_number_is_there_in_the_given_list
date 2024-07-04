@@ -1,0 +1,10 @@
+n=[1,4,2,7,10,90,14,90,87,95,12,89,10,10]
+l=0
+m=int(input("give a number"))
+for x in(n):
+    if x==m:
+        l=l+1 
+if l>=1:
+    print("the number you gave is in there",l,"times in list i made")
+else:
+    print("the number you gave is not in the list i made")
